@@ -1,0 +1,34 @@
+1.Проверка установки пакета pillow в глобальном окружении
+
+dmitriy@Manjaro-home ~ $ pip show pillow
+Name: Pillow
+Version: 9.0.1
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: /usr/lib/python3.10/site-packages
+Requires: 
+Required-by: 
+
+
+2. Активация виртуального окружения и отсутствие в нём пакета pillow
+
+(dz_4) dmitriy@Manjaro-home ~/PythonProjects $ pip list
+Package    Version
+---------- -------
+pip        22.0.3
+setuptools 58.1.0
+
+
+3. Установка пакета pillow определённой версии в виртуальное окружение pip install pillow==7.1.1
+
+(dz_4) dmitriy@Manjaro-home ~/PythonProjects $ pip list
+Package    Version
+---------- -------
+Pillow     7.1.1
+pip        22.0.3
+setuptools 58.1.0
+
+4. Деактивация виртуального окружения deactivate
