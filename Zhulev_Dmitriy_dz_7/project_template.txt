@@ -1,0 +1,5 @@
+some_project
+settings
+mainapp
+adminapp
+authapp
